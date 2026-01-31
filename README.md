@@ -82,13 +82,21 @@ Flower-Classification-MobileNetV2/
 ```
 ## 🚀 How to Run (Hướng dẫn chạy)
 
-Không cần cài đặt môi trường phức tạp hay tải dữ liệu thủ công. Chỉ cần làm theo các bước đơn giản sau:
+Dự án được thiết kế để chạy trực tiếp trên Google Colab mà không cần cài đặt phức tạp:
 
-1.  Mở file `02_Flower_Predictor.ipynb` trên GitHub này.
-2.  Nhấn nút **Open in Colab** (hoặc tải về và upload lên Google Colab).
-3.  Chọn menu **Runtime -> Run all**.
-    * Hệ thống sẽ tự động tải Model đã huấn luyện.
-    * Tải các ảnh trong thư mục `Sample_images` về máy để upload lên kiểm thử ngay lập tức (bao gồm cả các trường hợp khó).
+* **[Dành cho người xem - Demo nhanh]**: 
+  <br> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/higoindividual-ops/Flower-Classification-MobileNetV2/blob/main/02_Flower_Predictor.ipynb)
+  *(Sử dụng file này để tải Model có sẵn và test ảnh mẫu ngay lập tức)*
+
+* **[Dành cho nhà phát triển - Huấn luyện lại]**: 
+  <br> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/higoindividual-ops/Flower-Classification-MobileNetV2/blob/main/01_Flower_Training_MobileNetV2.ipynb)
+  *(Sử dụng file này nếu muốn xem toàn bộ quá trình xử lý dữ liệu và huấn luyện model từ đầu)*
+
+## 📝 Các bước thực hiện:
+
+1. Sau khi nhấn nút **Open in Colab**, chọn menu **Runtime -> Run all** (hoặc nhấn `Ctrl + F9`).
+2. Hệ thống sẽ tự động tải trọng số Model (weights) và các thư viện cần thiết.
+3. Bạn có thể tải các ảnh trong thư mục `Sample_images` về máy để upload lên kiểm thử (bao gồm cả các trường hợp ảnh Panorama áp dụng **Smart Padding**).
 
 ## 📢 Acknowledgements & Data Source (Nguồn dữ liệu)
 
