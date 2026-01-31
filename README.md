@@ -94,7 +94,7 @@ Không cần cài đặt môi trường phức tạp hay tải dữ liệu thủ
 
 Dự án sử dụng bộ dữ liệu hoa từ Kaggle. Xin gửi lời cảm ơn chân thành đến tác giả vì đã chia sẻ nguồn dữ liệu quý giá này cho cộng đồng nghiên cứu.
 
-* **Dataset:** [Flower Images by Zahra Aghapour](https://www.kaggle.com/datasets/zahraaghapour/flower-images)
+* **Dataset:** [Flower Images by Zahra Aghapour](https://www.kaggle.com/datasets/zahraaghapour/flowers-images)
 * **Original Source:** Kaggle
 * **Tools:** TensorFlow, Keras, OpenCV.
 
